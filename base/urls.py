@@ -20,7 +20,7 @@ from django.http import HttpResponse
 from django.urls import path, include
 
 urlpatterns = [
-    path('', lambda request: HttpResponse("<body>Hi</body>")),
+    path('', lambda request: HttpResponse("<body>Hi There</body>")),
     path('admin/', admin.site.urls),
 ]
 
